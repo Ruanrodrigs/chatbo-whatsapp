@@ -1,7 +1,8 @@
 # chatbot-whatsapp
 Bot do WhatsApp para o Manchester City Football Club
 
- 
+ ![Captura da Web_16-11-2023_122556_web whatsapp com](https://github.com/Ruanrodrigs/chatbo-whatsapp/assets/113262643/c621e483-d07c-4c71-8319-a5218bdcc27d)
+
 Visão Geral
 Este projeto é um bot do WhatsApp projetado para o engajamento de membros do Manchester City Football Club. O bot é construído usando Node.js, Express e a API do WhatsApp Web por meio da biblioteca whatsapp-web.js. O banco de dados MongoDB é utilizado para armazenar e recuperar interações do usuário.
 
