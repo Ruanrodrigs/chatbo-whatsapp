@@ -14,7 +14,7 @@ client.on('ready', () => {
 });
 // Função para enviar mensagens
 function sendMessage(to, message) {
-    // Implemente a lógica para enviar mensagens, por exemplo, usando a biblioteca do WhatsApp
+    // A lógica para enviar mensagens, por exemplo, usando a biblioteca do WhatsApp
     console.log(`Mensagem enviada para ${to}: ${message}`);
     client.sendMessage(to, message);
   }
