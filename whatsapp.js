@@ -2,7 +2,7 @@ const { Client } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const client = new Client();
 
-let  nomeClinte ='';
+let  nomeCliente ='';
 
 client.on('qr', (qr) => {
     console.log('QR Code gerado:', qr);
