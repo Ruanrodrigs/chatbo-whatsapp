@@ -33,16 +33,6 @@ client.on('message', async (message) => {
             console.log(`Resposta: Agradecemos muito, ${nomeCliente}! Em breve, nossa equipe entrará em contato para finalizar seu cadastro como sócio torcedor do Manchester City. Fique de olho nas nossas ofertas!`);
             sendMessage(message.from, `Agradecemos muito, ${nomeCliente}! Em breve, nossa equipe entrará em contato para finalizar seu cadastro como sócio torcedor do Manchester City. Fique de olho nas nossas ofertas!`);
         }
-        // Exemplo: Se a mensagem for 'cadastrar cliente', simular clique no botão
-        if (message.body.toLowerCase() === 'cadastrar cliente') {
-            handleButtonClick('cadastrarNovoCliente', message.from);
-        }
-
-        // Exemplo: Se a mensagem for 'gerar relatorio', simular clique no botão
-        if (message.body.toLowerCase() === 'gerar relatorio') {
-            handleButtonClick('gerarRelatorio', message.from);
-        }
-
     } catch (error) {
         console.error('Erro ao processar mensagem:', error);
         sendMessage(message.from, 'Ops, algo deu errado! Por favor, tente novamente ou entre em contato conosco para obter assistência.');
